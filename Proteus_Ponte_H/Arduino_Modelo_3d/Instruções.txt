@@ -1,0 +1,5 @@
+Copie o arquivo Arduino_Uno_R3.step e cole na pasta MCAD do proteus
+
+Copie o arquivo USERPKG.LIB e cole na pasta LIBRARY do proteus
+
+Importe o package Arduino Uno R3 no PCB Layout do seu projeto e o adicione!
