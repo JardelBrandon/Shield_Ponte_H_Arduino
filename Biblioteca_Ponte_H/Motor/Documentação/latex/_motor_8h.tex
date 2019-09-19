@@ -1,0 +1,78 @@
+\hypertarget{_motor_8h}{}\doxysection{Motor/src/\+Motor.h File Reference}
+\label{_motor_8h}\index{Motor/src/Motor.h@{Motor/src/Motor.h}}
+
+
+This is the implementation of header file to control a motor that is connected to shield bridge H.  
+
+
+{\ttfamily \#include \char`\"{}Arduino.\+h\char`\"{}}\newline
+Include dependency graph for Motor.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{_motor_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_motor}{Motor}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_motor}{Motor}} Class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8}{State}} \{ \mbox{\hyperlink{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a50d8e53aac4e002d0fd296c5033ce985}{GO}}, 
+\mbox{\hyperlink{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a906b7cc20b42994dda4da492767c1de9}{R\+E\+V\+E\+R\+SE}}, 
+\mbox{\hyperlink{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a6b4af979c9694e48f340397ac08dfd1c}{L\+O\+C\+K\+ED}}, 
+\mbox{\hyperlink{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a4ade5a087dd858a01c36ce7ad8f64e36}{U\+N\+L\+O\+C\+K\+ED}}
+ \}
+\begin{DoxyCompactList}\small\item\em States of \mbox{\hyperlink{class_motor}{Motor}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the implementation of header file to control a motor that is connected to shield bridge H. 
+
+\begin{DoxyAuthor}{Author}
+Jardel Brandon / João Santos \href{mailto:jardel.brandon@academico.ifpb.edu.br}{\texttt{ jardel.\+brandon@academico.\+ifpb.\+edu.\+br}} $<$\href{mailto:joao.santos@academico.ifpb.edu.br}{\texttt{ joao.\+santos@academico.\+ifpb.\+edu.\+br}} $>$ 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 @\+Date September 18, 2019 
+\end{DoxyVersion}
+\hypertarget{_motor_8h_LICENSE}{}\doxysubsection{L\+I\+C\+E\+N\+SE}\label{_motor_8h_LICENSE}
+Copyright (c) 2010 Arduino L\+LC. All right reserved.
+
+This library is free software; you can redistribute it and/or modify it under the terms of the G\+NU Lesser General Public License as published by the Free Software Foundation; either version 2.\+1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful, but W\+I\+T\+H\+O\+UT A\+NY W\+A\+R\+R\+A\+N\+TY; without even the implied warranty of M\+E\+R\+C\+H\+A\+N\+T\+A\+B\+I\+L\+I\+TY or F\+I\+T\+N\+E\+SS F\+OR A P\+A\+R\+T\+I\+C\+U\+L\+AR P\+U\+R\+P\+O\+SE. See the G\+NU Lesser General Public License for more details.\hypertarget{_motor_8h_DESCRIPTION}{}\doxysubsection{D\+E\+S\+C\+R\+I\+P\+T\+I\+ON}\label{_motor_8h_DESCRIPTION}
+This library allows an Arduino / Genuino board to control the drive of a DC motor, or loads that are within the limit supported by Shield Bridge H, and can be powered in 4 different states using 4 Arduino / Genuino digital bits for control of Shield Bridge H states.\hypertarget{_}{}\doxysubsubsection{}\label{_}
+\href{https://github.com/JardelBrandon/Shield_Ponte_H_Arduino}{\texttt{ https\+://github.\+com/\+Jardel\+Brandon/\+Shield\+\_\+\+Ponte\+\_\+\+H\+\_\+\+Arduino}} 
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8}\label{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8}} 
+\index{Motor.h@{Motor.h}!State@{State}}
+\index{State@{State}!Motor.h@{Motor.h}}
+\doxysubsubsection{\texorpdfstring{State}{State}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8}{State}}}
+
+
+
+States of \mbox{\hyperlink{class_motor}{Motor}}. 
+
+Representation of different motor states used by h-\/bridge control pins \begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{GO@{GO}!Motor.h@{Motor.h}}\index{Motor.h@{Motor.h}!GO@{GO}}}\mbox{\Hypertarget{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a50d8e53aac4e002d0fd296c5033ce985}\label{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a50d8e53aac4e002d0fd296c5033ce985}} 
+GO&Move to one side. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{REVERSE@{REVERSE}!Motor.h@{Motor.h}}\index{Motor.h@{Motor.h}!REVERSE@{REVERSE}}}\mbox{\Hypertarget{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a906b7cc20b42994dda4da492767c1de9}\label{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a906b7cc20b42994dda4da492767c1de9}} 
+R\+E\+V\+E\+R\+SE&Move to other side. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LOCKED@{LOCKED}!Motor.h@{Motor.h}}\index{Motor.h@{Motor.h}!LOCKED@{LOCKED}}}\mbox{\Hypertarget{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a6b4af979c9694e48f340397ac08dfd1c}\label{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a6b4af979c9694e48f340397ac08dfd1c}} 
+L\+O\+C\+K\+ED&stuck. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UNLOCKED@{UNLOCKED}!Motor.h@{Motor.h}}\index{Motor.h@{Motor.h}!UNLOCKED@{UNLOCKED}}}\mbox{\Hypertarget{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a4ade5a087dd858a01c36ce7ad8f64e36}\label{_motor_8h_a5d74787dedbc4e11c1ab15bf487e61f8a4ade5a087dd858a01c36ce7ad8f64e36}} 
+U\+N\+L\+O\+C\+K\+ED&Default and free State. \\
+\hline
+
+\end{DoxyEnumFields}

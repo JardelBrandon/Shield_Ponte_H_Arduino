@@ -1,0 +1,13 @@
+# =============================================================================== 
+# KEYWORD1 = Class
+# KEYWORD2 = Métodos
+# ===============================================================================
+
+# Arduino IDE Keywords for Syntax Coloring
+ 
+# Keyword for class Motor
+Motor KEYWORD1
+ 
+# Keyword for class methods
+move     KEYWORD2
+breaking KEYWORD2
